@@ -18,7 +18,7 @@ export const gridItems = [
 },
 {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Based in NYC, delivering global impact",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
 },
 {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
