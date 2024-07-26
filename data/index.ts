@@ -1,14 +1,14 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
 export const gridItems = [
 {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize being a continuous learner and problem solver",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +38,7 @@ export const gridItems = [
 },
 {
     id: 4,
-    title: "Tech enthusiast with a passion for development",
+    title: "Tech enthusiast with a passion for Full Stack Development, Backend Engineering, and Machine Learning",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
 {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building multiple AI powered applications",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
 {
     id: 1,
-    title: "Project 1",
-    des: "Project 1 Description",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "AI Rate My Professor",
+    des: "Stay tuned for more details",
+    img: "/coming_soon.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/python.svg"],
+    link: "https://github.com/ahnaft7",
 },
 {
     id: 2,
-    title: "Project 2",
-    des: "Project 2 Description",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "AI Flashcard",
+    des: "Stay tuned for more details",
+    img: "/coming_soon.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/python.svg"],
+    link: "https://github.com/ahnaft7",
 },
 {
     id: 3,
-    title: "Project 3",
-    des: "Project 3 Description",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "AI Customer Support",
+    des: "Stay tuned for more details",
+    img: "/coming_soon.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/python.svg"],
+    link: "https://github.com/ahnaft7",
 },
 {
     id: 4,
-    title: "Project 4",
-    des: "Project 4 Description",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "GearOnTheGo",
+    des: "Equipment rental web app, allowing users to host and rent equipment. Built with React, Tailwind, Flask, and PostgreSQL.",
+    img: "/gearonthego.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/python.svg", "/flask_logo.jpg", "/postgresql.svg"],
+    link: "https://github.com/ahnaft7",
 },
 ];
 
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
 {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "AI/ML Software Engineer",
+    desc: "Developed software to process several hundred terabytes of data to be used in map creation for autonomous vehicles and machine learning models, enhancing data processing speed and accuracy using Python and Apache Spark. Leveraged backend and data processing tools such as Kubernetes, Amazon S3, Databricks, and Microsoft Azure for data transformations, automating workflows, data visualization, scaling on the cloud, and distributed systems.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
 },
 {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Embedded Software Engineer",
+    desc: "Developed embedded vehicle camera software using C++ to automate displaying error views when errors occur. Fixed over 100 Parasoft violations, resulting in cleaner and more robust code.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
 },
 {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Software Integration Engineer",
+    desc: "Tested Access and Security features in various vehicle programs accounting for every potential user case. Root caused Diagnostic Trouble Codes that arise after testing by understanding the software architecture.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
 },
 {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Project Engineer",
+    desc: "Designed a parameterized snap in NX that automatically generates an optimal design given user desired parameters. Created a Design for Six Sigma design process and compiled a catalog of potential product designs.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
 },
@@ -205,13 +205,16 @@ export const socialMedia = [
 {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ahnaft7"
 },
-{
-    id: 2,
-    img: "/twit.svg",
-},
+// {
+//     id: 2,
+//     img: "/twit.svg",
+//     link: "https://github.com/ahnaft7"
+// },
 {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ahnaf-tajwar/"
 },
 ];
