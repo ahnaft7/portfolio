@@ -173,28 +173,28 @@ export const companies = [
 export const workExperience = [
 {
     id: 1,
-    title: "AI/ML Software Engineer",
+    title: "AI/ML Software Engineer - General Motors",
     desc: "Developed software to process several hundred terabytes of data to be used in map creation for autonomous vehicles and machine learning models, enhancing data processing speed and accuracy using Python and Apache Spark. Leveraged backend and data processing tools such as Kubernetes, Amazon S3, Databricks, and Microsoft Azure for data transformations, automating workflows, data visualization, scaling on the cloud, and distributed systems.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
 },
 {
     id: 2,
-    title: "Embedded Software Engineer",
+    title: "Embedded Software Engineer - General Motors",
     desc: "Developed embedded vehicle camera software using C++ to automate displaying error views when errors occur. Fixed over 100 Parasoft violations, resulting in cleaner and more robust code.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
 },
 {
     id: 3,
-    title: "Software Integration Engineer",
+    title: "Software Integration Engineer - General Motors",
     desc: "Tested Access and Security features in various vehicle programs accounting for every potential user case. Root caused Diagnostic Trouble Codes that arise after testing by understanding the software architecture.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
 },
 {
     id: 4,
-    title: "Project Engineer",
+    title: "Project Engineer - General Motors",
     desc: "Designed a parameterized snap in NX that automatically generates an optimal design given user desired parameters. Created a Design for Six Sigma design process and compiled a catalog of potential product designs.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
