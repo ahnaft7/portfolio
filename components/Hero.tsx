@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaLocationArrow, FaArrowUpRightFromSquare } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
@@ -35,13 +35,22 @@ const Hero = () => {
                     Passionate about all things tech and based in New York City
                 </p>
                 
-                <a href="#about">
-                    <MagicButton 
-                        title="Show my work"
-                        icon={<FaLocationArrow />}
-                        position='right'
-                    />
-                </a>
+                <div className="flex space-x-4 mt-4">
+                    <a href="#about">
+                        <MagicButton 
+                            title="Show my work"
+                            icon={<FaLocationArrow />}
+                            position='right'
+                        />
+                    </a>
+                    <a href="/Ahnaf_Tajwar_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <MagicButton 
+                            title="View Resume"
+                            icon={<FaArrowUpRightFromSquare />}
+                            position='right'
+                        />
+                    </a>
+                </div>
             </div>
         </div>
 

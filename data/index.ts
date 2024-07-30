@@ -80,7 +80,7 @@ export const projects = [
 },
 {
     id: 2,
-    title: "AI Flashcard",
+    title: "AI Flashcards",
     des: "Stay tuned for more details",
     img: "/coming_soon.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/python.svg"],
@@ -96,11 +96,19 @@ export const projects = [
 },
 {
     id: 4,
+    title: "Accounty",
+    des: "Accountability App, where users can log their hours spent on different categories throughout the day and compared total hours logged with others through the leaderboard. They can also see their analytics throughout the week. Built with NextJS, React, TailwindCSS, TypeScript, and Supabase.",
+    img: "/accounty.jpg",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/supa.svg"],
+    link: "https://accountability-psi.vercel.app/",
+},
+{
+    id: 5,
     title: "GearOnTheGo",
-    des: "Equipment rental web app, allowing users to host and rent equipment. Built with React, Tailwind, Flask, and PostgreSQL.",
+    des: "Equipment rental web app, allowing users to host and rent equipment. Built with React, TailwindCSS, Flask, and PostgreSQL.",
     img: "/gearonthego.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/python.svg", "/flask_logo.jpg", "/postgresql.svg"],
-    link: "https://github.com/ahnaft7",
+    link: "https://github.com/BUMETCS673/project-team-5",
 },
 ];
 
