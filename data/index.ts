@@ -88,11 +88,11 @@ export const projects = [
 },
 {
     id: 3,
-    title: "AI Customer Support",
+    title: "AI Customer Support Chat Bot",
     des: "Stay tuned for more details",
-    img: "/coming_soon.jpg",
-    iconLists: ["/next.svg", "/re.svg", "/js.svg", "/openai.jpg", "/pinecone.jpg", "/firebase.svg"],
-    link: "https://github.com/ahnaft7",
+    img: "/firesideaichat.jpg",
+    iconLists: ["/next.svg", "/re.svg", "/mui.jpg", "/js.svg", "/lang.jpg", "/pinecone.jpg", "/groq.jpg"],
+    link: "https://firesideaichatbot.xyz/",
 },
 {
     id: 4,
