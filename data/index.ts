@@ -38,7 +38,7 @@ export const gridItems = [
 },
 {
     id: 4,
-    title: "Tech enthusiast with a passion for Full Stack Development, Backend Engineering, and Machine Learning",
+    title: "Tech enthusiast with a passion for AI/ML, Full Stack Development, and Backend Engineering",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -81,7 +81,7 @@ export const projects = [
 {
     id: 2,
     title: "FlashFire AI Flashcards",
-    des: "AI-powered flashcard generator for commonly asked interview questions. AI-powered flashcard generator for commonly asked interview questions. Built with Next.js, React, Node.js, MaterialUI, Clerk, Stripe, Groq, and Firebase.",
+    des: "AI-powered flashcard generator for commonly asked interview questions. Provided tailored questions and answers through RAG based on user profile, with flashcard history retrieval. Built with Next.js, React, Node.js, MaterialUI, Clerk, Stripe, Groq, and Firebase.",
     img: "/firesideflash.jpg",
     iconLists: ["/next.svg", "/re.svg", "/js.svg", "/mui.jpg", "/groq.jpg", "/stripe.svg", "/clerk.jpg", "/firebase.svg"],
     link: "https://fireside-flashcards.vercel.app/",
